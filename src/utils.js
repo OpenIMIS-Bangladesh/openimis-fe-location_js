@@ -3,7 +3,7 @@ export function healthFacilityLabel(hf) {
 }
 
 export function locationLabel(l) {
-  return !!l ? `${l.code} ${l.name}` : "";
+  return !!l ? `${l.name}` : "";
 }
 
 export const LOCATION_SUMMARY_PROJECTION = ["id", "uuid", "code", "name", "type"];
