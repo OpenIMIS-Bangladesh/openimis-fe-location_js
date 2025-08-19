@@ -17,7 +17,7 @@ const styles = (theme) => ({
 class DistrictPicker extends Component {
   constructor(props) {
     super(props);
-    this.selectThreshold = props.modulesManager.getConf("fe-location", "DistrictPicker.selectThreshold", 10);
+    this.selectThreshold = props.modulesManager.getConf("fe-location", "DistrictPicker.selectThreshold", 100);
   }
 
   onSuggestionSelected = (v) => {
